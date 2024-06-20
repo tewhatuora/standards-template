@@ -10,7 +10,7 @@ module.exports = async function createConfig() {
   const { remarkKroki } = await import('remark-kroki');
   return {
     title: 'Health New Zealand | Te Whatu Ora Standards Template',
-    favicon: '/standards-tmplate/imgfavicon-32x32.png',
+    favicon: '/standards-template/img/favicon-32x32.png',
 
     // Set the production url of your site here
     url: 'https://middlewarenewzealand.github.io',
@@ -94,8 +94,8 @@ module.exports = async function createConfig() {
           hideOnScroll: false,
           logo: {
             alt: 'Health New Zealand | Te Whatu Ora logo',
-            src: '/standards-tmplate/imgtwo.svg',
-            srcDark: '/standards-tmplate/imgtwo-dark-theme-logo.svg',
+            src: '/standards-template/img/two.svg',
+            srcDark: '/standards-template/img/two-dark-theme-logo.svg',
           },
           items: [
             {
@@ -140,7 +140,7 @@ module.exports = async function createConfig() {
                   html: `
                       </br>
                       <a href="https://www.govt.nz" target="_blank" rel="noreferrer noopener" aria-label="Hiso">
-                        <img src="/standards-tmplate/imggovt-nz.png" alt="Te Kāwanatanga o Aotearoa — New Zealand Government" style="float:left;width:7.5rem;height:auto;" />
+                        <img src="/standards-template/img/govt-nz.png" alt="Te Kāwanatanga o Aotearoa — New Zealand Government" style="float:left;width:7.5rem;height:auto;" />
                       </a>
                     `,
                 },
@@ -170,7 +170,7 @@ module.exports = async function createConfig() {
                       </br>
                       </br>
                       <a href="https://www.tewhatuora.govt.nz/health-services-and-programmes/digital-health/data-and-digital-standards/approved-standards" target="_blank" rel="noreferrer noopener" aria-label="Hiso">
-                        <img src="/standards-tmplate/imghiso-logo.png" alt="Hiso" style="width:300px;height:auto;" />
+                        <img src="/standards-template/img/hiso-logo.png" alt="Hiso" style="width:300px;height:auto;" />
                       </a>
                     `,
                 },
