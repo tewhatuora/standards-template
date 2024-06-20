@@ -63,6 +63,22 @@ gh repo create your-github-org/your-new-repo-name --template tewhatuora/standard
 
 This will create a repository in GitHub that you can now update as you please.
 
+Example output
+
+```sh
+  gh repo create tewhatuora/template-test1 --template tewhatuora/standards-template --public
+    ✓ Created repository tewhatuora/template-test1 on GitHub
+      https://github.com/tewhatuora/template-test1
+  git clone git@github.com:tewhatuora/template-test1.git
+    Cloning into 'template-test1'...
+    remote: Enumerating objects: 101, done.
+    remote: Counting objects: 100% (101/101), done.
+    remote: Compressing objects: 100% (88/88), done.
+    remote: Total 101 (delta 5), reused 90 (delta 3), pack-reused 0
+    Receiving objects: 100% (101/101), 1.18 MiB | 837.00 KiB/s, done.
+    Resolving deltas: 100% (5/5), done.
+```
+
 ### Editing a repository
 
 There are many ways to your new repository. For those new to use with github, this can be most simply achieved by "cloning" the repository onto your own machine and using your favorite editor such as Virtual Studio Code to create your content. 
