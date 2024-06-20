@@ -262,12 +262,12 @@ This command will create a copy of the content in your `docs` directory in the `
 Also note that versioning can be complicated. If your documentation does not require this functionality you should remove the versioned documents and json file as well as removing or commenting out the version configuration in `docusaurus.config.js`.
 
 ```json
-  versions: {
-    current: {
-      label: 'Draft',
-      path: 'draft',
-    },
+versions: {
+  current: {
+    label: 'Draft',
+    path: 'draft',
   },
+},
 ```
 
 ## Github Pages Deployment
