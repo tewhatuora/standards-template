@@ -216,8 +216,8 @@ sup {
 }
 
 .long-description summary:before {
-  background-image: url(../../static/standards-tmplate/imgic-expand@2x.png);
-  background-image: url(../../static/standards-tmplate/imgic-expand.svg),none;
+  background-image: url(../../static/img/ic-expand@2x.png);
+  background-image: url(../../static/img/ic-expand.svg),none;
   background-repeat: no-repeat;
   background-size: contain;
   content: "";
