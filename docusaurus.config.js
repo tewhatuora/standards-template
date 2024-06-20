@@ -10,7 +10,7 @@ module.exports = async function createConfig() {
   const { remarkKroki } = await import('remark-kroki');
   return {
     title: 'Health New Zealand | Te Whatu Ora Standards Template',
-    favicon: 'img/favicon-32x32.png',
+    favicon: '/img/favicon-32x32.png',
 
     // Set the production url of your site here
     url: 'https://middlewarenewzealand.github.io',
@@ -94,8 +94,8 @@ module.exports = async function createConfig() {
           hideOnScroll: false,
           logo: {
             alt: 'Health New Zealand | Te Whatu Ora logo',
-            src: 'img/two.svg',
-            srcDark: 'img/two-dark-theme-logo.svg',
+            src: '/img/two.svg',
+            srcDark: '/img/two-dark-theme-logo.svg',
           },
           items: [
             {
