@@ -5,8 +5,8 @@
 <div align="center">
   <a href="https://github.com/tewhatuora/standards-template">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./static/img/two-dark-theme-logo.svg">
-      <img alt="Health New Zealand Te Whatu Ora Logo" src="./static/img/two.svg" width="50%">
+      <source media="(prefers-color-scheme: dark)" srcset="./static/standards-tmplate/imgtwo-dark-theme-logo.svg">
+      <img alt="Health New Zealand Te Whatu Ora Logo" src="./static/standards-tmplate/imgtwo.svg" width="50%">
     </picture>
   </a>
 
