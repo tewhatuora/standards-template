@@ -2,6 +2,6 @@
 title: "Checklist"
 ---
 
-import ApiStandardsChecklist from '@site/src/components/ApiStandardsChecklist';
+import StandardsChecklist from '@site/src/components/StandardsChecklist';
 
-<ApiStandardsChecklist />
+<StandardsChecklist />

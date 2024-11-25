@@ -1,5 +1,5 @@
 name: "Standards feedback"
-description: Create a new issue with a feedback on the API Standards
+description: Create a new issue with a feedback on the Standards
 title: "[FEEDBACK] - <title>"
 labels: [
   "feedback"

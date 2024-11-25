@@ -20,13 +20,13 @@ const extractText = (Component) => {
  *
  * @example
  * // Usage example in Markdown:
- * <ApiStandard id="HNZAS_MUST_NOT_X_NOTATION_HEADERS" type="MUST NOT" toolTip="API Providers **MUST NOT** used X-Notation headers, as they have been deprecated in the HTTP standard.">Providers **MUST NOT** use X- notation headers</ApiStandard>
+ * <Standard id="HNZAS_MUST_NOT_X_NOTATION_HEADERS" type="MUST NOT" toolTip="API Providers **MUST NOT** used X-Notation headers, as they have been deprecated in the HTTP standard.">Providers **MUST NOT** use X- notation headers</Standard>
  */
 
-function ApiStandard({ id, type, toolTip, wrapper, children }) {
+function Standard({ id, type, toolTip, wrapper, children }) {
   if (children === undefined) {
     throw new Error(
-      "Error in rendering ApiStandard component; please check the format for " +
+      "Error in rendering Standard component; please check the format for " +
         id
     );
   }
@@ -62,4 +62,4 @@ function ApiStandard({ id, type, toolTip, wrapper, children }) {
   );
 }
 
-export default ApiStandard;
+export default Standard;

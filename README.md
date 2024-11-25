@@ -168,19 +168,19 @@ We have defined a component called a "standard"; essentially a rule that follows
 
 ### Basic Usage
 
-To wrap a piece of text in an `ApiStandard` component, use the following structure:
+To wrap a piece of text in an `Standard` component, use the following structure:
 
-Note that the `ApiStandard id=` value must match the following regular expression
+Note that the `Standard id=` value must match the following regular expression
 
 `^HNZAS_(MUST|MUST_NOT|SHOULD|SHOULD_NOT|MAY)_[\w_]+$`
 
 ```jsx
 
-<ApiStandard id="UNIQUE_ID" type="RULE_TYPE" toolTip="Description of the rule." wrapper="li">
+<Standard id="UNIQUE_ID" type="RULE_TYPE" toolTip="Description of the rule." wrapper="li">
 
   Your text here
 
-</ApiStandard>
+</Standard>
 
 ```
 
@@ -188,11 +188,11 @@ Note that the `ApiStandard id=` value must match the following regular expressio
 
 ```jsx
 
-<ApiStandard id="HNZAS_MUST_USE_TLS" type="MUST" toolTip="All communications to or from an API MUST use TLS 1.3 or higher." wrapper="li">
+<Standard id="HNZAS_MUST_USE_TLS" type="MUST" toolTip="All communications to or from an API MUST use TLS 1.3 or higher." wrapper="li">
 
   All communications to or from an API **MUST** use TLS 1.3 or higher.
 
-</ApiStandard>
+</Standard>
 
 ```
 
@@ -200,15 +200,15 @@ Note that the `ApiStandard id=` value must match the following regular expressio
 
 ### Single Line Rules
 
-When documenting simple rules, wrap the rule text in an `ApiStandard` component:
+When documenting simple rules, wrap the rule text in an `Standard` component:
 
 ```jsx
 
-<ApiStandard id="HNZAS_SHOULD_HAVE_HOME_PAGE" type="SHOULD" toolTip="A FHIR IG should have a home page with a clear high level description of the implementation." wrapper="li">
+<Standard id="HNZAS_SHOULD_HAVE_HOME_PAGE" type="SHOULD" toolTip="A FHIR IG should have a home page with a clear high level description of the implementation." wrapper="li">
 
   A FHIR IG **SHOULD** have a home page: "A clear high level description of the implementation"
 
-</ApiStandard>
+</Standard>
 
 ```
 
@@ -218,11 +218,11 @@ For more complex rules that span multiple sentences, ensure each sentence is cle
 
 ```jsx
 
-<ApiStandard id="HNZAS_MUST_PUBLISH_CAPABILITY_STATEMENT" type="MUST" toolTip="FHIR APIs MUST publish a CapabilityStatement resource at the {{API_URL}}/metadata endpoint." wrapper="li">
+<Standard id="HNZAS_MUST_PUBLISH_CAPABILITY_STATEMENT" type="MUST" toolTip="FHIR APIs MUST publish a CapabilityStatement resource at the {{API_URL}}/metadata endpoint." wrapper="li">
 
   FHIR APIs **MUST** publish a **CapabilityStatement** resource at the `{{API_URL}}/metadata` endpoint.
 
-</ApiStandard>
+</Standard>
 
 ```
 
@@ -232,17 +232,17 @@ When listing multiple requirements, each item should be wrapped individually:
 
 ```jsx
 
-<ApiStandard id="HNZAS_MUST_USE_TLS" type="MUST" toolTip="All communications to or from an API MUST use TLS 1.3 or higher." wrapper="li">
+<Standard id="HNZAS_MUST_USE_TLS" type="MUST" toolTip="All communications to or from an API MUST use TLS 1.3 or higher." wrapper="li">
 
   All communications to or from an API **MUST** use TLS 1.3 or higher.
 
-</ApiStandard>
+</Standard>
 
-<ApiStandard id="HNZAS_MUST_ENCRYPT_TOKENS" type="MUST" toolTip="Tokens MUST be encrypted." wrapper="li">
+<Standard id="HNZAS_MUST_ENCRYPT_TOKENS" type="MUST" toolTip="Tokens MUST be encrypted." wrapper="li">
 
   Tokens **MUST** be encrypted.
 
-</ApiStandard>
+</Standard>
 
 ```
 
