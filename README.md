@@ -10,7 +10,7 @@
     </picture>
   </a>
 
-  <h3 align="center">Health New Zealand | Te Whatu Ora API Development and Security Standards</h3>
+  <h3 align="center">Health New Zealand | Te Whatu Ora Standards Template</h3>
 
   <p align="center">
     This GitHub repository serves as both a template example and user guide, of how to publish HNZ collateral (standards, guides, Glossaries etc) using github and the tooling built in to this project. The template is based on the HNZ API Standards developed by Middleware NZ for HNZ. The idea is that by copying and editing this project, more HNZ collateral can be published for consumption with minimum development effort <a href="https://apistandards.digital.health.nz">https://apistandards.digital.health.nz</a>.
